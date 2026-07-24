@@ -4,7 +4,7 @@ import FadeInSection from "./FadeInSection"
 
 export default function Hero(){
     return(
-        <div className="w-full relative min-h-screen bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col py-20 md:px-8 lg:px-40" style={{ backgroundImage: `url(${siteconfig.heroImg})` }}>
+        <div className="w-full relative min-h-screen bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col pt-28 py-20 md:px-8 lg:px-40" style={{ backgroundImage: `url(${siteconfig.heroImg})` }}>
             {/* overlay the background */}
             <div className="absolute bg-primary/70 w-full h-full"></div>
             {/* hero main container */}
